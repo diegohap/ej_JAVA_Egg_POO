@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08069cb6-3086-43b4-bff7-224cc04f097c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej1/Ej1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej1/model/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej2/Ej2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej2/model/Circunferencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej3/Ej3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej3/model/Operacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej4/Ej4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej4/model/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej5/Ej5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej5/model/Cuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POO/main/Ej1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POO/main/model/Libro.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +38,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
