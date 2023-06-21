@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08069cb6-3086-43b4-bff7-224cc04f097c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ej3/Ej3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej3/model/Operacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej4/Ej4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej4/model/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej5/Ej5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej5/model/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej6/Ej6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej6/model/Cafeteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej7/Ej7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej7/model/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POO/main/Ej1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POO/main/model/Libro.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
