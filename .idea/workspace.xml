@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08069cb6-3086-43b4-bff7-224cc04f097c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ej8/Ej8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej8/model/Cadena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal1/model/Vehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal2/model/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal2/model/Cuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal2/model/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal2/model/Hexagono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal2/model/Pentagono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal2/model/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal2/model/Rombo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal2/model/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej9/Ej9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ej9/model/Matematica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ej8/Ej8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ej8/Ej8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ej8/model/Cadena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ej8/model/Cadena.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
