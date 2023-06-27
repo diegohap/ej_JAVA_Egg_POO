@@ -18,12 +18,15 @@ public class Cadena implements Comparable<String>{
     public String invertirFrase(){
         return new StringBuilder(this.frase).reverse().toString();
     }
+//    public Integer vecesRepetido(String letra){
+//        return Long.valueOf(frase.chars()
+//                                 .mapToObj(Character::toString)
+//                                 .filter(c -> c.equalsIgnoreCase(letra))
+//                                 .count()
+//                           ).intValue();
+//    }
     public Integer vecesRepetido(String letra){
-        return Long.valueOf(frase.chars()
-                                 .mapToObj(Character::toString)
-                                 .filter(c -> c.equalsIgnoreCase(letra))
-                                 .count()
-                           ).intValue();
+        return frase.length() - frase.replaceAll(letra,"").length();
     }
     public String unirFrase(String frase){
         return this.frase + frase;
