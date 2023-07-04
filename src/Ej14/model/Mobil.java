@@ -11,7 +11,7 @@ public class Mobil {
     private Double ramInGB;
     private Double storageInGB;
     private Integer[] code = new Integer[7];
-    private Scanner teclado = new Scanner(System.in);
+    private Scanner teclado = new Scanner(System.in).useDelimiter("\n");
 
     public Mobil() {
     }

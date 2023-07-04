@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08069cb6-3086-43b4-bff7-224cc04f097c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ej12/Ej12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej12/model/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej13/Ej13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej13/model/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej14/Ej14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ej14/model/Mobil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POO/Ej10/Ej10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/Ej10/Ej10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ej14/model/Mobil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ej14/model/Mobil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,21 +96,5 @@
       <updated>1686697611704</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Ej14/model/Mobil.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Ej14/model/Mobil.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
