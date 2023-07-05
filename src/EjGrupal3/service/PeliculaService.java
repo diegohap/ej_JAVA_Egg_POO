@@ -1,7 +1,6 @@
 package EjGrupal3.service;
 
 import EjGrupal3.model.Pelicula;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -47,5 +46,4 @@ public class PeliculaService {
         }
         return Optional.of(peliculasBuscadas);
     }
-
 }

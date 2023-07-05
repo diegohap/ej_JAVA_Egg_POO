@@ -2,7 +2,6 @@ package EjGrupal3.service;
 
 import EjGrupal3.model.Alquiler;
 import EjGrupal3.model.Pelicula;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 

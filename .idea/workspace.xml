@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08069cb6-3086-43b4-bff7-224cc04f097c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal3/model/Alquiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal3/model/Pelicula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal3/service/AlquilerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjGrupal3/service/PeliculaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="08069cb6-3086-43b4-bff7-224cc04f097c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,16 +93,5 @@
       <updated>1686697611704</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/EjGrupal3/service/AlquilerService.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
