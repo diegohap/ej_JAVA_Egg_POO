@@ -52,7 +52,7 @@ public class Main {
                     peliculaService.buscarPeliculaPorTitulo("Titanic").get(),
                     peliculaService.buscarPeliculaPorTitulo("Matrix").get())
                 ),
-                LocalDate.of(2023, 7, 2),
+                LocalDate.of(2023, 7, 1),
                 LocalDate.of(2023, 7, 3)
         );
         alquilerService.crearAlquiler(
@@ -67,5 +67,8 @@ public class Main {
         System.out.println(alquilerService.getAlquilerList());
         System.out.println("---   INGRESOS   ---");
         System.out.println("$" + alquilerService.calcularIngresoTotal());
+
+        System.out.println("---   BUSCAR ALQUILERES POR FECHA DE INICIO   ---");
+        System.out.println(alquilerService.buscarAlquilerPorFechaInicio(LocalDate.of(2023, 7, 1)));
     }
 }

@@ -4,6 +4,7 @@ import EjGrupal3.model.Alquiler;
 import EjGrupal3.model.Pelicula;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 public class AlquilerService {
     ArrayList<Alquiler> alquilerList;
@@ -33,12 +34,15 @@ public class AlquilerService {
     }
 
     public ArrayList<Alquiler> buscarAlquilerPorFechaInicio(LocalDate fechaInicio){
-        ArrayList<Alquiler> alquiliresBuscados = new ArrayList<Alquiler>();
-        for (Alquiler a : alquilerList) {
-            if (a.getFechaInicio().isEqual(fechaInicio))
-                alquiliresBuscados.add(a);
-        }
-        return alquiliresBuscados;
+        return alquilerList.stream()
+                .filter(a -> a.getFechaInicio().isEqual(fechaInicio))
+                .collect(Collectors.toCollection(ArrayList::new));
+//        ArrayList<Alquiler> alquiliresBuscados = new ArrayList<Alquiler>();
+//        for (Alquiler a : alquilerList) {
+//            if (a.getFechaInicio().isEqual(fechaInicio))
+//                alquiliresBuscados.add(a);
+//        }
+//        return alquiliresBuscados;
     }
 
     public Double calcularIngresoTotal(){

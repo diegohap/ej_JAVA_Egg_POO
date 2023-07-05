@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08069cb6-3086-43b4-bff7-224cc04f097c" name="Changes" comment="" />
+    <list default="true" id="08069cb6-3086-43b4-bff7-224cc04f097c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjGrupal3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjGrupal3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjGrupal3/service/AlquilerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjGrupal3/service/AlquilerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjGrupal3/service/PeliculaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjGrupal3/service/PeliculaService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,10 +37,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Data/Java pruebas/Egg/POO/src/EjGrupal3/enunciado&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ej8">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Data\Java pruebas\Egg\POO\src\EjGrupal3\enunciado" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="Ej10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ej10.Ej10" />
       <module name="POO" />
@@ -77,9 +88,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ej8" />
         <item itemvalue="Application.Ej14" />
         <item itemvalue="Application.Ej10" />
-        <item itemvalue="Application.Ej8" />
       </list>
     </recent_temporary>
   </component>

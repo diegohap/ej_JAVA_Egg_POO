@@ -4,6 +4,7 @@ import EjGrupal3.model.Pelicula;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 public class PeliculaService {
     List<Pelicula> peliculasList;
@@ -23,15 +24,17 @@ public class PeliculaService {
     }
 
     public String listarPeliculasDisponibles(){
-        String listaTitulosPeliculas = "";
-        for (Pelicula p : peliculasList) {
-            listaTitulosPeliculas += p.getTitulo() + "\n";
-        }
-        return listaTitulosPeliculas;
+//        String listaTitulosPeliculas = "";
+//        for (Pelicula p : peliculasList) {
+//            listaTitulosPeliculas += p.getTitulo() + "\n";
+//        }
+//        return listaTitulosPeliculas;
+        return peliculasList.stream()
+                .map(p -> p.getTitulo())
+                .collect(Collectors.joining("\n"));
     }
 
     public Optional<Pelicula> buscarPeliculaPorTitulo(String titulo){
-        Pelicula peliculaBuscada = new Pelicula();
         for (Pelicula p : peliculasList) {
             if (p.getTitulo().toLowerCase().equals(titulo.toLowerCase()))
                 return Optional.of(p);
