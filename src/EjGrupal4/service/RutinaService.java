@@ -7,7 +7,7 @@ import java.util.Optional;
 public class RutinaService {
     ArrayList<Rutina> rutinas;
 
-    public RutinaService(ArrayList<Rutina> rutinas) {
+    public RutinaService() {
         this.rutinas = new ArrayList<>();
     }
     public ArrayList<Rutina> obtenerRutinas(){
