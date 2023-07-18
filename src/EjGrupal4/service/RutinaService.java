@@ -14,11 +14,6 @@ public class RutinaService {
         return this.rutinas;
     }
     public Optional<Rutina> obtenerRutinaPorId(Integer id){
-//        for (int i = 0; i < clientes.size(); i++) {
-//            Rutina c = rutinas.get(i);
-//            if(c.getId().equals(id))
-//                return Optional.of(c);
-//        }
         for(Rutina r : rutinas) {
             if(r.getId().equals(id))
                 return Optional.of(r);

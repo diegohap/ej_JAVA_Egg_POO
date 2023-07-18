@@ -42,7 +42,7 @@ public class Main {
 
         System.out.println("---   ELIMINANDO EL CLIENTE Id=5   ---");
         clienteService.eliminarCliente(5);
-        if(!clienteService.obtenerClientePorId(5).isEmpty())
+        if(clienteService.obtenerClientePorId(5).isPresent())
             System.out.println(clienteService.obtenerClientePorId(5).get().toString());
         else
             System.out.println("el cliente no existe");

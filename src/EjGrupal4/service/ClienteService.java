@@ -14,11 +14,6 @@ public class ClienteService {
         return this.clientes;
     }
     public Optional<Cliente> obtenerClientePorId(Integer id){
-//        for (int i = 0; i < clientes.size(); i++) {
-//            Cliente c = clientes.get(i);
-//            if(c.getId().equals(id))
-//                return Optional.of(c);
-//        }
         for(Cliente c : clientes) {
             if(c.getId().equals(id))
                 return Optional.of(c);
