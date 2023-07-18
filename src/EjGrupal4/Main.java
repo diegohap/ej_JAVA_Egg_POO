@@ -19,7 +19,7 @@ public class Main {
         clienteService.registrarCliente(c1);
         clienteService.registrarCliente(5, "Gonzalo", 56, 1.0,89.0, "ganar masa muscular");
         clienteService.registrarCliente(c3);
-        clienteService.registrarCliente(c4);
+        clienteService.registrarCliente(new Cliente(1, "martin", 30, 1.88d, 75.0, "adelgazar"));
         clienteService.registrarCliente(c5);
 
         System.out.println("---   TODOS LOS CLIENTES   ---");
