@@ -51,15 +51,20 @@ public class RutinaService {
             rutina.setMinutos(minutos);
             rutina.setNivelDificultad(dificultad);
             rutina.setDescripcion(descripcion);
-            rutinas.set(getIndexRutinaById(id), rutina);
+            return obtenerRutinaPorId(id);
         }
-        return obtenerRutinaPorId(id);
+        return Optional.empty();
     }
     public Optional<Rutina> actualizarRutina(Rutina rutina){
         if(existeRutina(rutina.getId())){
-            rutinas.set(getIndexRutinaById(rutina.getId()), rutina);
+            return actualizarRutina(
+                    rutina.getId(),
+                    rutina.getNombre(),
+                    rutina.getMinutos(),
+                    rutina.getNivelDificultad(),
+                    rutina.getDescripcion());
         }
-        return obtenerRutinaPorId(rutina.getId());
+        return Optional.empty();
     }
     public void eliminarRutina(Integer id){
         if(existeRutina(id))
@@ -71,12 +76,5 @@ public class RutinaService {
                 return true;
         }
         return false;
-    }
-    private Integer getIndexRutinaById(Integer id){
-        for (int i = 0; i < rutinas.size(); i++) {
-            if(rutinas.get(i).getId().equals(id))
-                return i;
-        }
-        return 0;
     }
 }

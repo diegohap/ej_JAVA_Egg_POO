@@ -13,6 +13,7 @@ public class Main {
         Cliente c3 = new Cliente(2, "Sara", 27, 1.6, 55.0, "tonificar");
         Cliente c4 = new Cliente(1, "martin", 30, 1.88d, 75.0, "adelgazar");
         Cliente c5 = new Cliente(3, "Rodrigo", 27, 1.65, 55.0, "tonificar");
+        Cliente c6 = new Cliente(5, "Pablo", 56, 1.1,69.0, "perder peso");
 
         clienteService.registrarCliente(c1);
         clienteService.registrarCliente(5, "Gonzalo", 56, 1.0,89.0, "ganar masa muscular");
@@ -32,7 +33,8 @@ public class Main {
             System.out.println("el cliente no existe");
 
         System.out.println("---   CLIENTE Id=5 ACTUALIZADO");
-        clienteService.actualizarCliente(5, "Pablo", 56, 1.1,69.0, "perder peso");
+        //clienteService.actualizarCliente(5, "Pablo", 56, 1.1,69.0, "perder peso");
+        clienteService.actualizarCliente(c6);
         if(!clienteService.obtenerClientePorId(5).isEmpty())
             System.out.println(clienteService.obtenerClientePorId(5).get().toString());
         else
@@ -49,7 +51,6 @@ public class Main {
         for(Cliente c : clienteService.obtenerClientes()){
             System.out.println(c.toString());
         }
-
 
         Rutina r1 = new Rutina(259, "abdominales", 20, Rutina.NIVEL_INTERMEDIO, "muchos abdominales");
 

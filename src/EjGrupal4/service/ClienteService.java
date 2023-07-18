@@ -52,15 +52,20 @@ public class ClienteService {
             cliente.setPeso(peso);
             cliente.setAltura(altura);
             cliente.setObjetivo(objetivo);
-            clientes.set(getIndexClientById(id), cliente);
             return obtenerClientePorId(id);
         }
         return Optional.empty();
     }
-    public Optional<Cliente> actualizarCliente(Cliente cliente){
-        if(existeCliente(cliente.getId())) {
-            clientes.set(getIndexClientById(cliente.getId()), cliente);
-            return obtenerClientePorId(cliente.getId());
+    public Optional<Cliente> actualizarCliente(Cliente clienteNuevo){
+        if(existeCliente(clienteNuevo.getId())) {
+            return actualizarCliente(
+                    clienteNuevo.getId(),
+                    clienteNuevo.getNombre(),
+                    clienteNuevo.getEdad(),
+                    clienteNuevo.getAltura(),
+                    clienteNuevo.getPeso(),
+                    clienteNuevo.getObjetivo()
+            );
         }
         return Optional.empty();
     }
@@ -74,12 +79,5 @@ public class ClienteService {
                 return true;
         }
         return false;
-    }
-    private Integer getIndexClientById(Integer id){
-        for (int i = 0; i < clientes.size(); i++) {
-            if(clientes.get(i).getId().equals(id))
-                return i;
-        }
-        return 0;
     }
 }
