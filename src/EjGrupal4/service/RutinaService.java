@@ -1,6 +1,8 @@
 package EjGrupal4.service;
 
 import EjGrupal4.model.Rutina;
+import EjGrupal4.model.RutinaDificultadEnum;
+
 import java.util.ArrayList;
 import java.util.Optional;
 
@@ -20,7 +22,7 @@ public class RutinaService {
         }
         return Optional.empty();
     }
-    public Optional<Rutina> registrarRutina(Integer id, String nombre, Integer minutos, String dificultad, String descripcion){
+    public Optional<Rutina> registrarRutina(Integer id, String nombre, Integer minutos, RutinaDificultadEnum dificultad, String descripcion){
         if(!existeRutina(id)){
             Rutina rutina = new Rutina(id, nombre, minutos, dificultad, descripcion);
             rutinas.add(rutina);
@@ -39,7 +41,7 @@ public class RutinaService {
         }
         return obtenerRutinaPorId(rutina.getId());
     }
-    public Optional<Rutina> actualizarRutina(Integer id, String nombre, Integer minutos, String dificultad, String descripcion){
+    public Optional<Rutina> actualizarRutina(Integer id, String nombre, Integer minutos, RutinaDificultadEnum dificultad, String descripcion){
         if(existeRutina(id)){
             Rutina rutina = obtenerRutinaPorId(id).get();
             rutina.setNombre(nombre);

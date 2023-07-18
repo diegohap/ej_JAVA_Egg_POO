@@ -2,6 +2,7 @@ package EjGrupal4;
 
 import EjGrupal4.model.Cliente;
 import EjGrupal4.model.Rutina;
+import EjGrupal4.model.RutinaDificultadEnum;
 import EjGrupal4.service.ClienteService;
 
 public class Main {
@@ -52,7 +53,7 @@ public class Main {
             System.out.println(c.toString());
         }
 
-        Rutina r1 = new Rutina(259, "abdominales", 20, Rutina.NIVEL_INTERMEDIO, "muchos abdominales");
+        Rutina r1 = new Rutina(259, "abdominales", 20, RutinaDificultadEnum.NIVEL_INTERMEDIO, "muchos abdominales");
 
     }
 }
